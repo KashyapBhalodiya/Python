@@ -48,6 +48,7 @@ import math
 from pydoc import tempfilepager
 from tkinter import N
 from tkinter.tix import Tree
+from traceback import print_tb
 from unicodedata import digit
 
 from numpy import number, outer
@@ -308,22 +309,36 @@ dog1 = Dog()
 dog1.bark()
 cat1 = Cat()
 cat1.walk()
+print('\n\n')
 
 ## How to create packages in python
 # Go to Ecommerce_Package
 
 ## Generating Random values
+import random
 
+for i in range(3):
+    print(random.random())
 
+members = ['John', 'Mary', 'Bob', 'Mosh']
+leader = random.choice(members)
+print(leader)
+print("\n\n")
 
+## Files and Directories
+# pip install openpyxl (read for excel files)
+from pathlib import Path
 
+path = Path("Ecommerce_Package")
+print(path.exists())
+for file in path.glob('*.py'):
+    print(file)
 
-
-
-
-
-
-
+import openpyxl as xl
+wb = xl.load_workbook('transactions.xlsx')
+sheet = wb['Sheet1']
+cell = sheet.cell(1, 1)
+print(cell.value)
 
 
 

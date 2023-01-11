@@ -111,4 +111,15 @@ print(myorder.format(quantity, itemno, price))
 \xhh = hexadecimal value (\x45\x51\x12\x45)
 """
 
+# Python Operators
+"""
+Arithmetic: +,-,*,/,%,**,//
+Assignment: =, +=, -=, *=, /=, %=, //=, **=, &=, ?=, >>=, <==, ^=
+Comparison: ==, !=, >, <, >=, <=
+Logical: and, or, not
+Identity: is, is not
+Membership: in, not in
+Bitwise: &, |, ^, ~, <<, >>
+"""
+
 

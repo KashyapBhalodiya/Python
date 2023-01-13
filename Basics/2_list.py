@@ -1,4 +1,3 @@
-
 # Lists are used to store multiple items in a single variable.
 # It is used store the collection of data.
 # List is a collection which is prdered and changeable. Allows duplicate members.

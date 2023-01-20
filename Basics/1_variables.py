@@ -122,4 +122,7 @@ Membership: in, not in
 Bitwise: &, |, ^, ~, <<, >>
 """
 
+# How we give to the user input using input() method
+username = input("Enter your username: ")
+print("UserName: " + username)
 
